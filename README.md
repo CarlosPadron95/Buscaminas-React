@@ -12,7 +12,7 @@
 ---
 
 <a name="español"></a>
-## 🇪🇸 Versión en Español
+## Versión en Español
 
 Un clon moderno y funcional del clásico juego Buscaminas, desarrollado para dominar React Hooks, algoritmia avanzada y layouts complejos con CSS Grid.
 
@@ -33,7 +33,7 @@ Puedes jugar la versión en vivo aquí:
 ---
 
 <a name="english"></a>
-## 🇺🇸 English Version
+## English Version
 
 A modern and functional clone of the classic Minesweeper game, developed to master React Hooks, advanced algorithms, and complex layouts using CSS Grid.
 
