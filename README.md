@@ -1,37 +1,61 @@
-# 💣 Buscaminas React + Vite
+# 💣 Buscaminas React + Vite / Minesweeper Clone
 
-Un clon moderno y funcional del clásico juego Buscaminas, desarrollado como proyecto de práctica para el dominio de React Hooks, Algoritmia y CSS Grid.
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-## 🚀 Demo
+[**Versión en Español**](#español) | [**English Version**](#english)
 
+---
+
+<a name="español"></a>
+## 🇪🇸 Versión en Español
+
+Un clon moderno y funcional del clásico juego Buscaminas, desarrollado para dominar React Hooks, algoritmia avanzada y layouts complejos con CSS Grid.
+
+### 🚀 Demo
 Puedes jugar la versión en vivo aquí:
-👉 [https://carlospadron95.github.io/Buscaminas-React/]
+👉 [**JUGAR AHORA**](https://carlospadron95.github.io/Buscaminas-React/)
 
-## 🛠️ Tecnologías Utilizadas
+### 🧠 Desafíos Técnicos Resueltos
+1. **Algoritmo de Expansión (Flood Fill):** Implementación de recursividad para la apertura automática de celdas vacías.
+2. **Gestión de Estado Complejo:** Manipulación de matrices de objetos mediante inmutabilidad para asegurar actualizaciones eficientes en la UI.
+3. **Persistencia de Datos:** Uso de `localStorage` para guardar récords personales.
 
-- **React 19** - Librería principal para la interfaz.
-- **Vite** - Herramienta de construcción ultra rápida.
-- **JavaScript (ES6+)** - Lógica del juego.
-- **CSS Moderno** - Layout mediante CSS Grid y Flexbox.
-- **GitHub Pages** - Despliegue y hosting.
+### 📋 Características
+- Configuración dinámica de dificultad y tamaño del tablero.
+- Cronómetro en tiempo real y sistema de banderas (clic derecho).
+- Diseño retro inspirado en Windows clásico.
 
-## 🧠 Desafíos Técnicos Resueltos
+---
 
-### 1. Algoritmo de Expansión (Flood Fill)
+<a name="english"></a>
+## 🇺🇸 English Version
 
-Se implementó un algoritmo recursivo para la apertura automática de celdas vacías. Cuando el usuario hace clic en una celda con `0` minas cercanas, la función se llama a sí misma para revelar todas las celdas adyacentes seguras.
+A modern and functional clone of the classic Minesweeper game, developed to master React Hooks, advanced algorithms, and complex layouts using CSS Grid.
 
-### 2. Gestión de Estado Complejo
+### 🚀 Live Demo
+You can play the live version here:
+👉 [**PLAY NOW**](https://carlospadron95.github.io/Buscaminas-React/)
 
-Para manejar el tablero (una matriz de objetos), se utilizó la inmutabilidad de React. En cada movimiento, se realiza una clonación profunda del estado para asegurar que React detecte los cambios y actualice la UI de forma eficiente.
+### 🧠 Technical Challenges Solved
+1. **Expansion Algorithm (Flood Fill):** Implementation of recursion for the automatic opening of empty cells.
+2. **Complex State Management:** Handling object matrices using immutability to ensure efficient UI updates.
+3. **Data Persistence:** Using `localStorage` to save and retrieve personal high scores.
 
-### 3. Persistencia de Datos
+### 📋 Features
+- Dynamic difficulty settings and board sizes.
+- Real-time stopwatch and flagging system (right-click).
+- Retro design inspired by classic Windows.
 
-Uso de 'localStorage' para almacenar y recuperar el mejor tiempo (récord) del jugador, diferenciando por el tamaño del tablero seleccionado.
+---
 
-## 📋 Características
-
-- **Configuración Dinámica:** Cambia el tamaño del tablero (8x8, 12x12, 16x16) y la cantidad de minas.
-- **Cronómetro en tiempo real:** Mide tu agilidad.
-- **Sistema de Banderas:** Clic derecho para marcar posibles minas.
-- **Diseño Retro:** Estética inspirada en el Buscaminas clásico de Windows.
+## 🛠️ Tecnologías / Technologies
+- **React 19**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS Grid & Flexbox**
+- **GitHub Pages** (Deployment)
